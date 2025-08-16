@@ -20,8 +20,9 @@ int main()
         len++;
     }
     
-    printf("Lenth of the string is %d.\n", len);
+    printf("Length of the string is %d.\n", len);
     
     return 0;
     
+
 }
