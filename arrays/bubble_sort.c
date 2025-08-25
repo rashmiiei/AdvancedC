@@ -5,7 +5,7 @@ int main()
 	
 	//Calculating the size of the array
 	int size = sizeof(arr) / sizeof arr[0]; //24/4 = 6
-	int i, j, temp, flag;
+	int i, j, temp;
 	
 	// Outer loop for number of passes (size - 1)
 	for(int i=0; i<size-1; i++)
@@ -32,4 +32,5 @@ int main()
 	
 	return 0;
 }
+
 	
