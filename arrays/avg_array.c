@@ -1,4 +1,4 @@
-/* WAP to calculate the Average of Array : Write a program to calculate and print the average value of elements in an array. */
+/*  Write a program to calculate and print the average value of elements in an array. */
 #include <stdio.h>
 int main()
 {
@@ -22,4 +22,5 @@ int main()
     printf("Average of the array elements are : %g\n", avg);
     
     return 0;
+
 }
