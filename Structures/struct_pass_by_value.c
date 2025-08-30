@@ -19,9 +19,11 @@ int main()
     struct Student s1;
     
     // function call, pass by value method, changes won't reflect in s1
+    // recommended for smaller structures
     //we are not collecting it into any variable 
     data(s1); 
     printf("%d\n", s1.id); // garbage value will be printed
 
     return 0;
+
 }
