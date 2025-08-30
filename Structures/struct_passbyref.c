@@ -4,7 +4,7 @@ struct Student // defining the structure variable
 {
     int id;
     char name[20];
-    char address[60];
+    char address[150];
 
 };
 
@@ -30,3 +30,4 @@ int main()
     return 0;
 
 }
+
