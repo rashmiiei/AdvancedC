@@ -21,10 +21,12 @@ int main()
     struct Student s1;
     
     // pass by reference method of function call
+    // recommended for larger structures
     // Sending the address of structure to another function
     data(&s1); 
     
     printf("%d\n", s1.id);
     
     return 0;
+
 }
