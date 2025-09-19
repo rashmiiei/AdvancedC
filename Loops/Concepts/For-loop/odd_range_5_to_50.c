@@ -3,6 +3,7 @@
 
 int main() 
 {
+    // The range can be changed based on user's preference
     // Loop from 5 to 50
     for(int i=5; i<=50; i++)
     {
@@ -15,4 +16,5 @@ int main()
     }
 
     return 0;
+
 }
