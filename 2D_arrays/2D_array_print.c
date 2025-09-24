@@ -4,7 +4,7 @@ int main()
 {
 	// Declare and initialize a 2D array with 2 rows and 3 columns
 	int arr[2][3] = {10, 20, 30, 40, 50, 60};
-	
+		
 	// Declare loop variables for rows and columns
 	int rows, cols;
 	
@@ -24,3 +24,4 @@ int main()
 	return 0;
 
 }
+
