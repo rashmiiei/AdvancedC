@@ -1,8 +1,6 @@
 #include <stdio.h>
-
 int main()
-{
-   
+{   
    while(1) 
    {
    printf("-----------------MENU----------------\n");
@@ -134,8 +132,7 @@ int main()
 		default: 
 			printf("Please enter the correct input(1 - 7) \n");
    }
-   }
-   
-
-	return 0;
+   } 
+		return 0;
 }
+
