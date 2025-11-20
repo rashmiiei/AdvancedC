@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
 	// Declare and initialize a 2D array with 2 rows and 3 columns
@@ -22,6 +21,6 @@ int main()
 		printf("\n");
 	}
 	return 0;
-
 }
+
 
