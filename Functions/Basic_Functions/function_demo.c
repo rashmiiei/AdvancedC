@@ -9,6 +9,7 @@ void my_hello_function()
 {
     printf("hello \n");
 }
+
 //Function definition of function myGoodbyeFunction
 void my_goodbye_function()
 {
