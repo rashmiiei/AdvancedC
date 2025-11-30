@@ -1,6 +1,7 @@
 /* This code performs recursive binary search operation */
 
 #include <stdio.h>
+
 //  Recursive Binary Search function
 int RBinSearch(int a[], int l, int r, int data)
 {
@@ -56,4 +57,5 @@ int main()
 	}
 		
 	return 0;
+
 }
