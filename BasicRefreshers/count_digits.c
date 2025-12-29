@@ -1,4 +1,5 @@
 /* This codes demonstrates how to count the number of digits in any given number */
+
 #include <stdio.h>
 
 int main()
@@ -18,4 +19,5 @@ int main()
     printf("The no. of digits is %d\n", count);
 
     return 0;
+
 }
