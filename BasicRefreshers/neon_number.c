@@ -5,7 +5,7 @@ int main()
     printf("enter a number : ");
     scanf("%d", &num);
 
-    original_num = num;
+    //original_num = num;
     square = num*num;
 
     while(square != 0)
@@ -15,7 +15,7 @@ int main()
         square = square/10;
     }
 
-    if(sum == original_num)
+    if(sum == num)
     {
         printf("neon number \n");
     }
@@ -25,3 +25,4 @@ int main()
     }
     return 0;
 }
+
