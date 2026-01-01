@@ -5,11 +5,10 @@ Example: 9 → 9² = 81 → 8 + 1 = 9. */
 
 int main()
 {
-    int num, square, sum=0, rem, original_num;
+    int num, square, sum=0, rem;
     printf("enter a number : ");
     scanf("%d", &num);
 
-    //original_num = num;
     square = num*num;
 
     while(square != 0)
@@ -29,5 +28,6 @@ int main()
     }
     return 0;
 }
+
 
 
