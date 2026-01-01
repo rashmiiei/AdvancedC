@@ -1,4 +1,8 @@
+/* This code demonstrates a neon number. A Neon number is a number whose square’s digits add up to the original number.
+Example: 9 → 9² = 81 → 8 + 1 = 9. */
+
 #include <stdio.h>
+
 int main()
 {
     int num, square, sum=0, rem, original_num;
@@ -25,4 +29,5 @@ int main()
     }
     return 0;
 }
+
 
