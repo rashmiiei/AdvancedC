@@ -5,10 +5,13 @@ A spy number is a number whose sum of digits is equal to the product of its digi
 
 int main()
 {
-    int num, rem, sum=0, prod=1;
+    int num, rem, sum=0, prod=1, original_number;
 
     printf("enter a number : ");
     scanf("%d", &num);
+
+    //storing the number for further use.
+    //original_number = num;
 
     while(num != 0)
     {
@@ -28,4 +31,5 @@ int main()
 
     return 0;
 }
+
 
