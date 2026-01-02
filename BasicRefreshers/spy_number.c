@@ -1,3 +1,6 @@
+/*This code demonstrates a spy number  
+A spy number is a number whose sum of digits is equal to the product of its digits */
+
 #include <stdio.h>
 
 int main()
@@ -25,3 +28,4 @@ int main()
 
     return 0;
 }
+
