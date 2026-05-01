@@ -34,6 +34,5 @@ int main()
     }
     
     printf("Reversed string is %s", str);
-    return 0;
-    
+    return 0;    
 }
