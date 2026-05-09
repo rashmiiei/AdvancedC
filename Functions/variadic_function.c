@@ -10,25 +10,18 @@ int add(int count, ...) // 'count' tells how many arguments follow
     int i, sum;
     
     // Initialize the argument list starting after 'count'
-	// Ye macro ap ko initialize karta hai.
-	// count batata hai ki arguments count ke baad start ho rahe hain.
-    va_start(ap, count);
+	va_start(ap, count);
     
     sum=0;
     
     // Loop through each argument and add it to 'sum'
     for( i=0; i < count; i++)
     {
-        /*Extract args */
-		// va_arg(ap, int) ek ek karke arguments ko extract karta hai.
-		// Tum batate ho ki kis type ka argument expect kar rahe ho (yahan int).
-        sum += va_arg(ap, int);
+        sum = sum + va_arg(ap,int);
     }
     
     // freeing the memory
-	// Ye macro memory ko free karta hai jo va_list ne use ki thi.
-	// Ye step mandatory hai — warna memory leak ho sakta hai.
-    va_end(ap);
+	va_end(ap);
     
     return sum;
 }
