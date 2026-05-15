@@ -1,5 +1,4 @@
 /* This program reverses the string */
-
 #include <stdio.h>
 
 int main()
