@@ -1,4 +1,5 @@
 /*program to print the reverse multiplication table of any number */
+
 #include <stdio.h>
 
 int main() 
