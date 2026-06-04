@@ -9,7 +9,6 @@ Enter the element at [1][0] : 43
 Enter the element at [1][1] : 42
 Enter the element at [1][2] : 56
 Maximum is 56 and Minimum is 2   
-
 */
 
 #include <stdio.h>
