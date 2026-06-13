@@ -9,6 +9,7 @@ struct Data
     char str[10];
     float num3;
 };
+
 int main()
 {
 	// Initialize a struct instance with sample values
