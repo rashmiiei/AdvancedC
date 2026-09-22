@@ -17,6 +17,11 @@ int main()
     printf("enter the first string : ");
     scanf("%9[^\n]", str1);
 
+    int c;
+    while ((c = getchar()) != '\n' && c != EOF)
+    {
+    }
+
     printf("enter the second string : ");
     scanf("%9[^\n]", str2);
 
