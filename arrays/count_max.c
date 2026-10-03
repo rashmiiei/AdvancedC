@@ -2,7 +2,7 @@
 
 int main()
 {
-    int arr[] = {4, 5, 7, 2, 9, 5};
+    int arr[] = {3, 7, 3, 5, 7, 7};
 
     int i=0, size;
 
@@ -10,7 +10,7 @@ int main()
     
     int max = arr[0];
 
-    int count=1;
+    int count=0;
     for(i=0; i< size; i++)
     {
         if(arr[i] > max)
