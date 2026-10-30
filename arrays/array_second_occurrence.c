@@ -1,3 +1,5 @@
+/* find second occurence of 7 and print it's index */
+
 #include <stdio.h>
 
 int main()
